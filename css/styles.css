@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: crimson;
+}
+
+h1, h2  {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    color: limegreen;
+    text-align: center
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkred;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+button {
+    background-color: limegreen;
+    color: black;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    margin-left: 75px;
+}
+
+article {
+    float: left;
+    width: 33%;
+    align-items: center;
+}
+
+footer {
+    margin-top: 100px;
+}
