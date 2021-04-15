@@ -8,6 +8,8 @@
     <link href="css/styles.css" type="text/css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <script src='js/add-content.js'></script>
+    <script src='js/usernameprompt.js'></script>
+    <script src='js/donate.js'></script>
 <style>
 body {
   font-family: "Sofia", sans-serif;
@@ -18,14 +20,14 @@ body {
         <center>
         <h1>Virgin Candle Co.</h1>
         <h2>PUREST CANDLES ON EARTH</h2>
-        <script>document.write(welcomeHere())</script>
         <script>document.write(addUserName())</script>
+        <script>document.write(welcomeHere())</script>  
          <nav>   
             <ul>
                 <button><a href='https://agrazda.github.io/scentedcandlestore/'>HOME</a></button>
                 <button><a href='https://www.google.com'>IMPORTED CANDLES</a></button>
-                <button><a href='https://github.com/TaylorWhite21/scentedcandlestore/blob/main/style.css'>HOLIDAY CANDLES</a></button>
-                <button>DONTATE</button>
+                <button><a href='https://taylorwhite21.github.io/scentedcandlestore/'>HOLIDAY CANDLES</a></button>
+                <button onclick=window.donate()>DONTATE</button>
             </ul>
         </nav>
         </center>

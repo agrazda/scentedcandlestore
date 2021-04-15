@@ -14,26 +14,5 @@ function welcomeHere(){
     else { 
     greeting = 'Welcome!'; 
     }
-    return '<h3>' + greeting + '</h3>' ;   
+    return '<h3>' + greeting + '</h3>';   
     }
-
-function addUserName(){
-    var name = prompt ("What is your name?")
-    var greeting
-    if (name !==""){
-        greeting = "hello" + name
-    } 
-    return '<h3>' + message + '</h3>';
-}
-
-function donate(){
-    var donate = prompt ("Would you like to donate a Virgin?")
-    var greeting
-
-    if (name !==""){
-        greeting = "hello" + name
-    }
-    
-    return '<h3>' + message + '</h3>';
-
-}
